@@ -1,0 +1,73 @@
+.nav {
+    background-color: #4287f5;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 12px;
+}
+
+.nav .active {
+    color: white;
+}
+
+.nav a:hover {
+    background-color: #82add9;
+    color: #fcd874;
+}
+
+.title-container {
+    text-align: center;
+    background-color: #82add9;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+}
+
+.title-container p {
+    font-size: 16px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-image: url(vlhbg.png);
+}
+
+.quote{
+    background-color: #66F;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+.quote p{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-style: italic;
+    fill: black;
+}
+
+.quote text{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    fill: black;
+    margin-left: 50%;
+}
+
+model-viewer {
+    height: 1400px;
+    width: 1400px;
+}
