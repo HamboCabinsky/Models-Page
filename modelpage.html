@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Models</title>
+  <style>
+    main {
+        max-width: 700px;
+        margin: auto;
+        max-height: 300px;
+        transform: translate(0%, 5%);
+        user-select: none;
+      }
+  </style>
+  <link rel="stylesheet" media="screen" href="defstylsh.css">
+  <link rel="shortcut icon" type="image/jpg" href="painty.jpg">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+<body>
+  <div class="nav">
+      <a href="index.php">Home</a>
+      <a href="cards.php">Guessing Game</a>
+      <a class="active" href="GUI-tar.php">GUI-tar</a>
+      <a href="polyform.php">PolyForm</a>
+      <a href="featured.php">Featured Arts</a>
+  </div>
+  <br>
+  <section class="title-container">
+        <h1 id="title">Roguelike</h1>
+        <p class="sub-title">in development</p>
+  </section>
+  <main>
+  	<model-viewer alt="POTTED TREE" src="POTTEDTREE.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+  </main>
+</body>
+
+<script>
+</script>
+
+</html>
